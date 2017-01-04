@@ -1,0 +1,52 @@
+/*教材列表*/
+body{font-family: "Microsoft YaHei";z-index: 0}
+.float_left{float: left}
+.float_right{float: right}
+.header{background-color: gainsboro;margin-bottom: 10px}
+.account_info{line-height: 40px}
+.select_area{line-height: 34px;padding-right: 0}
+.select_exam_type{margin-right: 20px}
+.new_button{padding-left: 0;height: 34px;padding-top: 3px}
+.search_area{margin-top: 5px}
+.book_list{margin-top: 10px}
+.table{border: solid 1px gainsboro;margin-bottom: 0}
+.head_row{background-color: gainsboro}
+/*遮罩层*/
+#shade{height: 100%;width: 100%;background-color: lightgrey;opacity: 0.5;z-index:1;position: absolute;top: 0;left: 0;display: none}
+/*表单*/
+.form_width{width: 480px}
+.form_head{border: solid 1px grey;background-color: rgb(66,138,201);height: 35px;line-height: 35px}
+.form_body{border: solid 1px grey;padding: 10px;background-color: white}
+.edit_area{border: dotted 1px grey;width: 455px}
+.input_width{width: 373px}
+.text_area_height{line-height: 106px}
+.exam_height{line-height: 44px}
+.box_width_1{width: 74px}
+.box_width_2{width: 148px}
+.div_space{margin: 5px 5px;}
+.button_area{margin-top: 10px;margin-left: 180px}
+#form_div{display: none;position: absolute;top:15%;left: 35%;z-index: 2;}
+#cancel_div{margin-left: 10px}
+/*表单的关闭按钮X*/
+.close{width: 12px;text-align: center;margin-right: 10px;line-height: 32px}
+/*教材详情*/
+/*改版，停用，附件*/
+.btn_u{height: 20px;padding:0;font-size: 10px;margin-left: 5px}
+.btn_s{height: 20px;padding:0;font-size: 10px}
+/*表格字段名*/
+.td_name{width: 100px;background-color:rgb(66,138,201);color: white;text-align: center}
+/*教材基本信息表格的边框*/
+.basicInfo{border: solid 1px rgb(66,138,201)}
+/*版本信息*/
+#versionInfo{padding: 0 15px}
+#versionNumber{padding: 0 15px;margin-bottom: 5px}
+.versionSummary{height:37px;padding-left: 8px;margin-bottom: 5px;line-height: 37px;background-color: rgb(66,138,201);color: white;}
+.img{width: 120px;height: 150px;float: right}
+.version{height: 37px;background-color: gainsboro;line-height: 37px;margin-right: 5px;padding:0 5px;cursor: pointer;width: 150px}
+.versionDiv{border: solid 1px rgb(66,138,201);padding: 0;margin-top: 5px}
+.atd{width: 100px;text-align: center}
+#select_attachments{display: none}
+/*模块之间的间隙*/
+.dl{margin-bottom: 5px}
+/*返回顶部*/
+#back_to_top{width: 30px;height: 23px;float: right;position: fixed;bottom: 0;right: 15%}
