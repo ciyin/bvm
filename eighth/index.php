@@ -29,3 +29,4 @@ if ($_SESSION['isLogin']){
         $a->smarty->display('denglu.php');
     }
 }
+echo 'this is a change';
